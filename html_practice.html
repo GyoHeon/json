@@ -9,13 +9,17 @@
     <title>Home - My First website</title>
     <link href="style.css" rel="stylesheet" />
     <style>
+      * {
+        border: 2px rgb(0, 255, 55) solid;
+      }
       html {
         background-color: grey;
       }
       body {
-        margin: 10px;
-        padding: 20px;
-        background-color: indigo;
+        height: 100vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
       }
       h1 {
         color: rgb(0, 255, 55);
@@ -23,20 +27,15 @@
         font-weight: 100;
       }
       div {
-        margin: 25px;
-        padding: 10px;
-        height: 150px;
-        width: 150px;
-        background-color: aqua;
-      }
-      #first {
-        background-color: khaki;
+        width: 50px;
+        height: 50px;
+        background-color: royalblue;
       }
       #second {
-        background-color: lawngreen;
+        background-color: sienna;
       }
       #third {
-        background-color: lightcoral;
+        background-color: skyblue;
       }
       footer {
         text-align: center;
@@ -46,10 +45,8 @@
     <meta name="This is gyoheonlee website" content="practicing..." />
   </head>
   <body>
-    <div id="first">
-      <div id="second">
-        <div id="third"></div>
-      </div>
-    </div>
+    <div id="first"></div>
+    <div id="second"></div>
+    <div id="third"></div>
   </body>
 </html>

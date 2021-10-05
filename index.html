@@ -15,25 +15,24 @@
         height: 1000vh;
         margin: 10px;
       }
-      span {
-        background-color: cadetblue;
+      input {
+        border: 1px solid coral;
       }
-      span:nth-child(2n + 3) {
-        background-color: chartreuse;
+      input:required {
+        border: 1px solid chartreuse;
+      }
+      input[placeholder~="name"] {
+        background-color: cornflowerblue;
       }
     </style>
   </head>
   <body>
-    <span>span</span>
-    <span>span</span>
-    <span>span</span>
-    <span>span</span>
-    <span>span</span>
-    <span>span</span>
-    <span>span</span>
-    <span>span</span>
-    <span>span</span>
-    <span>span</span>
-    <span>span</span>
+    <div>
+      <form>
+        <input type="text" placeholder="first name" />
+        <input type="text" placeholder="last name" />
+        <input type="password" required placeholder="password" />
+      </form>
+    </div>
   </body>
 </html>

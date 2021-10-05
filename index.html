@@ -15,24 +15,13 @@
         height: 1000vh;
         margin: 10px;
       }
-      input {
-        border: 1px solid coral;
-      }
-      input:required {
-        border: 1px solid chartreuse;
-      }
-      input[placeholder~="name"] {
-        background-color: cornflowerblue;
+      input::placeholder {
+        color:chartreuse;
       }
     </style>
   </head>
   <body>
-    <div>
       <form>
-        <input type="text" placeholder="first name" />
-        <input type="text" placeholder="last name" />
-        <input type="password" required placeholder="password" />
-      </form>
-    </div>
+        <input type="text" placeholder="name" />
   </body>
 </html>

@@ -11,12 +11,15 @@
     <title>Home - My First website</title>
     <link href="style.css" rel="stylesheet" />
     <style>
+      :root {
+        --main-color: rgb(0, 255, 13);
+      }
       body {
         height: 1000vh;
         margin: 10px;
       }
       input::placeholder {
-        color:chartreuse;
+        color:var(--main-color);
       }
     </style>
   </head>

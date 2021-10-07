@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Create An Account</h1>
+    <div>
+    <p>
+        <label for="first-name">First name</label>
+        <input type="text" placeholder="First name"  id="first-name" required/>
+      </p>
+      <p>
+        <label for="last-name">Last name</label>
+        <input type="text" placeholder="Last name"  id="last-name" required/>
+    </p>
+        <label for="email">Email</label>
+        <input type="email" placeholder="Email"  id="email" required/>
+      
+        <label for="username">Username</label>
+        <input type="text" placeholder="Username"  id="username" required/>
+      
+        <label for="password">Password</label>
+        <input
+          type="password"
+          placeholder="Password"
+          minlength="10"
+          id="password" required/>
+        <label for="birthdate">Birth date</label>
+        <input type="date" placeholder="Birth date"  id="birthdate" required/>
+        <label for="happy">How happy are you?</label>
+        <input type="range"  id="happy" required/>
+      
+        <label for="color">What is your fav. color?</label>
+        <input type="color"  id="color" required/>
+        <input
+          type="submit"
+          placeholder="Create Account"
+          value="Create Account" required
+        />
+      </form>
+    </div>
+  </body>
+</html>

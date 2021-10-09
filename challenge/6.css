@@ -1,0 +1,28 @@
+body {
+  background-color: #ff6546;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  top: 35%;
+  border: 2px solid black;
+  height: 225px;
+  width: 225px;
+  background-color: #f5deb4;
+}
+div {
+  background-color: #008180;
+  height: 50px;
+  width: 50px;
+  border: 3px solid white;
+}
+.middle {
+  width: 200px;
+  border: dashed white;
+}

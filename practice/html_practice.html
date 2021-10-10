@@ -10,23 +10,19 @@
     />
     <title>Home - My First website</title>
     <style>
-      a {
-        color: wheat;
-        background-color: tomato;
-        text-decoration: none;
-        padding: 3px 5px;
-        border-radius: 5px;
-        font-size: 55px;
-        transition: all 1s ease-in-out;
+      img {
+        border: 3px solid black;
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+        transition: transform 1s ease-in-out;
       }
-      a:hover {
-        color: tomato;
-        background-color: wheat;
-        border-radius: 0;
+      img:hover {
+        transform: rotateY(360deg) scale(0.5);
       }
     </style>
   </head>
   <body>
-    <a href="#">Go home</a>
+    <img src="https://wired.jp/app/uploads/2017/08/Google_G_Logo-TA.webp" />
   </body>
 </html>

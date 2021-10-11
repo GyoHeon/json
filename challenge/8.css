@@ -8,6 +8,7 @@ header {
 }
 .box {
   display: flex;
+  flex: 200px;
   justify-content: center;
   flex-wrap: wrap;
   align-content: center;
@@ -21,26 +22,36 @@ header {
   justify-content: space-evenly;
   margin: 20px 5px;
 }
-.box-layout:first-child {
-  background-color: tomato;
-  margin-left: 35vh;
-}
-.box-layout:nth-child(2) {
-  background-color: teal;
-  margin-right: 35vh;
-}
-.box-layout:nth-child(3) {
-  background-color: burlywood;
-  margin-left: 35vh;
-}
-.box-layout:last-child {
-  background-color: thistle;
-  margin-right: 35vh;
-}
 .contents {
   position: relative;
   background-color: #ffffff;
   top: 15px;
   width: 200px;
   height: 120px;
+}
+.box-layout:first-child {
+  background-color: tomato;
+}
+.box-layout:nth-child(2) {
+  background-color: teal;
+}
+.box-layout:nth-child(3) {
+  background-color: burlywood;
+}
+.box-layout:last-child {
+  background-color: thistle;
+}
+.box-layout:nth-child(2n) {
+  margin-right: 35vh;
+}
+.box-layout:nth-child(2n + 1) {
+  margin-left: 35vh;
+}
+@media screen and (max-width: 1000px) {
+  .box-layout:nth-child(2n) {
+    margin-right: 15vh;
+  }
+  .box-layout:nth-child(2n + 1) {
+    margin-left: 15vh;
+  }
 }

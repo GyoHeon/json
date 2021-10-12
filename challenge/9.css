@@ -6,7 +6,7 @@ body {
   display: flex;
   justify-content: center;
   margin: 200px 0px 100px 0px;
-  animation: toprotate 1s infinite;
+  animation: toprotate 1.6s infinite;
 }
 .bottom {
   display: flex;

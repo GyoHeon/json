@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 50px 50px;
+  border: 8px solid #00c7ad;
+}
+header {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px 50px 0px;
+  font-weight: 600;
+}
+header i {
+  position: absolute;
+  left: 50px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin: 50px 0px;
+}
+.text .song {
+  font-size: 30px;
+  font-weight: 600;
+}
+.text .singer {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.position {
+  display: flex;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 15px;
+}
+.rectangle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  border: 3px black solid;
+  border-radius: 20%;
+  color: white;
+}
+.position-first {
+  display: flex;
+  margin-bottom: 50px;
+}
+.position-first .song {
+  font-size: 50px;
+  font-weight: 700;
+}
+.position-first .singer {
+  font-size: 25px;
+  color: rgba(0, 0, 0, 1);
+}
+.position-first .rectangle {
+  height: 150px;
+  width: 150px;
+  background-color: #ffbc10;
+  margin-right: 10px;
+}
+#btn {
+  display: flex;
+  justify-content: space-between;
+}
+#play-btn {
+  height: 70px;
+  width: 200px;
+  border-radius: 15px;
+  border: 3px black solid;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 0 black;
+}
+#play-btn span {
+  margin-left: 20px;
+}
+#heart-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 3px black solid;
+  box-shadow: 0 5px 0 black;
+}
+#add-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 3px black solid;
+  box-shadow: 0 5px 0 black;
+}
+
+li:first-child .rectangle {
+  background-color: #f85a2b;
+}
+li:nth-child(2) .rectangle {
+  background-color: #ff8abc;
+}
+li:nth-child(3) .rectangle {
+  background-color: #1946e5;
+}
+li:nth-child(4) .rectangle {
+  background-color: #00c7ad;
+}

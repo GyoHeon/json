@@ -9,6 +9,10 @@
   border-radius: 35%;
   margin-right: 20px;
 }
+.user-component__avatar--xl {
+  width: 100px;
+  height: 100px;
+}
 .user-component__title {
   font-weight: 600;
   font-size: 22px;

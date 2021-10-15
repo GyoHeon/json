@@ -4,9 +4,30 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
+ul {
+  padding: 0;
+  margin-bottom: 0;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 15px;
+  padding: 15px;
+  border-radius: 20px;
+  color: rgba(0, 0, 0, 0.3);
+}
+li:hover {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
 button {
   border: 0;
   background-color: inherit;
+}
+input[type="range"] {
+  width: 80%;
+  margin: 30px 0;
 }
 .screen1,
 .screen2 {
@@ -55,23 +76,12 @@ button {
   border-radius: 20px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
-ul {
-  padding: 0;
-}
-li {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 10px 15px;
-  padding: 15px;
-  border-radius: 20px;
-  color: rgba(0, 0, 0, 0.3);
-}
 .list-span {
   width: 150px;
+  height: 45px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .list-span__singer {
   font-size: 14px;
@@ -81,14 +91,10 @@ li {
   font-weight: 700;
   color: black;
 }
-li:hover {
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
-}
 .screen1-status {
   background-color: black;
   color: white;
-  margin: 20px 10px;
+  margin: 0 10px 20px 10px;
   padding: 0 20px;
   height: 60px;
   border-radius: 30px;
@@ -111,6 +117,39 @@ li:hover {
   color: white;
   margin: 3px;
 }
+.screen2-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.screen2-main span {
+  margin: 5px;
+}
+.screen2-song {
+  font-size: 30px;
+  font-weight: 700;
+}
+.screen2-singer {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.3);
+}
+.screen2-main__btn {
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+}
+.screen2-main__btn-gray {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 18px;
+}
+.screen2-main__btn-step {
+  font-size: 20px;
+}
+.screen2-main__btn-play {
+  font-size: 50px;
+}
 .image-circle {
   width: 70px;
   height: 70px;
@@ -128,4 +167,6 @@ li:hover {
   height: 250px;
   border-radius: 10%;
   box-shadow: 0px 10px 20px skyblue;
+  align-self: center;
+  margin: 50px;
 }

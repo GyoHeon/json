@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-evenly;
+}
+button {
+  border: 0;
+  background-color: inherit;
+}
+.screen1,
+.screen2 {
+  width: 300px;
+  margin: 50px 0;
+  background-color: white;
+  border-radius: 25px;
+}
+.screen-top {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 20px;
+}
+.screen1-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.screen1-main__singer {
+  font-size: 30px;
+  font-weight: 800;
+  margin: 20px 0 10px 0;
+}
+.screen1-main__tag {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.3);
+  margin-bottom: 30px;
+}
+.screen1-btn {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+.screen1-btn__shuffle {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+}
+.screen1-btn__like {
+  font-size: 14px;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+ul {
+  padding: 0;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 15px;
+  padding: 15px;
+  border-radius: 20px;
+  color: rgba(0, 0, 0, 0.3);
+}
+.list-span {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.list-span__singer {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.3);
+}
+.list-span__song {
+  font-weight: 700;
+  color: black;
+}
+li:hover {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.screen1-status {
+  background-color: black;
+  color: white;
+  margin: 20px 10px;
+  padding: 0 20px;
+  height: 60px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.screen1-status__span {
+  display: flex;
+  flex-direction: column;
+}
+.screen1-status__singer {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+}
+.screen1-status__song {
+  font-weight: 600;
+}
+.screen1-status__btn button {
+  color: white;
+  margin: 3px;
+}
+.image-circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+.image-small {
+  width: 50px;
+  height: 50px;
+  border-radius: 10%;
+  position: relative;
+}
+.image-big {
+  width: 250px;
+  height: 250px;
+  border-radius: 10%;
+  box-shadow: 0px 10px 20px skyblue;
+}

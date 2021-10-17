@@ -1,0 +1,16 @@
+.settings__setting {
+  padding: 20px 0;
+  font-size: 20px;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.7);
+}
+.settings__setting i {
+  width: 30px;
+  margin: 0 15px;
+  font-size: 23px;
+}
+.settings-list {
+  border-bottom: var(--main-border);
+}

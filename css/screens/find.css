@@ -1,0 +1,30 @@
+.screen-heasder__cog {
+  display: flex;
+}
+.notification--find {
+  background-color: tomato;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  position: relative;
+  left: 30px;
+  top: -10px;
+}
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 0 0 30px 0;
+}
+.find-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.find-icons__icon i {
+  font-size: 40px;
+}
+.find-icons__icon span {
+  margin: 18px 0 0 0;
+  font-size: 20px;
+}

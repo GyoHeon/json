@@ -40,4 +40,28 @@
   width: 60px;
   height: 60px;
   border-radius: 30%;
+
+  margin-right: 15px;
+}
+.message__author {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: block;
+}
+.message__text {
+  background-color: white;
+  padding: 13px 19px;
+  border-radius: 15px;
+  border-top-left-radius: 0;
+  font-size: 24px;
+}
+.message__content {
+  display: flex;
+  align-items: flex-end;
+}
+.message__time {
+  margin: 0 8px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.45);
 }

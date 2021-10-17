@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More-cocoa talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">More</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span class="screen-heasder__cog">
+          <div class="notification--find"></div>
+          <i class="fas fa-cog fa-lg"></i>
+        </span>
+      </div>
+    </header>
+
+    <main class="main-screen more-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="img/2.png"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Lee GyoHeon</h4>
+
+            <h6 class="user-component__subtitle">
+              +82 010 9978 9874
+              <i class="fas fa-exclamation-circle"></i>
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <i class="far fa-comment-alt fa-2x"></i>
+        </div>
+      </div>
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="far fa-calendar-check"></i>
+          <span>Calendar</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-hdd"></i>
+          <span>Talk Drive</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-meh-blank"></i>
+          <span>Emoticons</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-fill"></i>
+          <span>Themes</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-file-invoice"></i>
+          <span>Account</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-comment"></i>
+          <span>Openchat</span>
+        </div>
+      </div>
+      <div class="more-suggestions">
+        <h4 class="more-suggestions__title">Suggestions</h4>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icon">
+            <img
+              class="more-suggestions__icon-image"
+              src="https://play-lh.googleusercontent.com/sTug7DxquD6aKrTTnsejKXYoK9CrvZo2i6HiuuSXwx5-hU5cm15DPU6ew_CRvji0WhTL"
+            />
+            <span class="more-suggestions__icon-text">Cocoa Story</span>
+          </div>
+          <div class="more-suggestions__icon">
+            <img
+              class="more-suggestions__icon-image"
+              src="https://pro2-bar-s3-cdn-cf4.myportfolio.com/82400735-e317-4894-bbfa-3aa7f07cea06/5a710e9b-7eac-43af-966d-72488f7d6e1f_rw_1200.jpg?h=c6bf8cfeaf5d3427de6b1ede722db116"
+            />
+            <span class="more-suggestions__icon-text">Cocoa Friends</span>
+          </div>
+          <div class="more-suggestions__icon">
+            <img
+              class="more-suggestions__icon-image"
+              src="data:image/png;base64,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"
+            />
+            <span class="more-suggestions__icon-text">Cocoa Game</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav_notification badge">1</span>
+            <i class="far fa-comments fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <div class="nav_notification--find"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <script
+      src="https://kit.fontawesome.com/8c9eb7dad1.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

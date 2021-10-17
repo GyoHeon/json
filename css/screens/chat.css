@@ -3,4 +3,20 @@
 }
 #chat-screen {
   background-color: #abc1d1;
+  height: 1000vh;
+}
+#chat-screen .alt-header {
+  position: fixed;
+  margin-top: 10px;
+  padding-top: 40px;
+}
+#chat-screen .status-bar {
+  top: 0px;
+}
+.main-chat {
+  margin-top: 160px;
+}
+#chat-screen .alt-header,
+#chat-screen .status-bar {
+  background-color: #abc1d1;
 }

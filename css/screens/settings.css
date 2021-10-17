@@ -5,12 +5,20 @@
   display: flex;
   align-items: center;
   color: rgba(0, 0, 0, 0.7);
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
 }
 .settings__setting i {
   width: 30px;
   margin: 0 15px;
   font-size: 23px;
 }
-.settings-list {
+.settings-list .settings__setting:nth-child(3) {
   border-bottom: var(--main-border);
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+}
+.settings__setting-column:last-child {
+  opacity: 0.6;
+  font-size: 18px;
 }

@@ -75,3 +75,56 @@
   border-top-left-radius: 15px;
   order: 1;
 }
+.reply {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+  align-items: center;
+  box-sizing: border-box;
+}
+.reply .reply__column:first-child {
+  width: 5%;
+}
+.reply .reply__column:last-child {
+  width: 95%;
+  position: relative;
+}
+.reply input {
+  height: 40px;
+  width: 100%;
+  border: var(--main-border);
+  border-radius: 20px;
+  padding-left: 15px;
+}
+.reply__column:last-child > i,
+.reply__column:last-child button {
+  position: absolute;
+  right: 0;
+  top: 7px;
+}
+.reply__column {
+  padding-right: 12px;
+}
+.reply__column:last-child > i {
+  right: 40px;
+  top: 7px;
+  font-size: 30px;
+}
+.reply__column > i {
+  opacity: 0.6;
+}
+.reply__column button {
+  background-color: var(--yellow);
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.reply__column button:focus,
+.reply__column button:active {
+  outline: none;
+}
